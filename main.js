@@ -6,8 +6,6 @@ rightWristY = 0;
 function preload()
 {
     song = loadSound("music.mp3");
-    song.setVolume(1);
-    song.rate(1);
 }
 function draw()
 {
@@ -42,4 +40,6 @@ function gotPoses(results)
 function play()
 {
     song.play();
+    song.setVolume(1);
+    song.rate(1);
 }
